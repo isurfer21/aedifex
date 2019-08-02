@@ -1,6 +1,6 @@
 {
   "name": "aedifex",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Minimalist lightening-fast javascript task-runner",
   "main": "build.js",
   "scripts": {
