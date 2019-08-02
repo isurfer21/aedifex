@@ -1,0 +1,23 @@
+{
+  "name": "aedifex",
+  "version": "1.0.0",
+  "description": "Javascript Task Runner",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isurfer21/aedifex.git"
+  },
+  "author": "Abhishek Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isurfer21/aedifex/issues"
+  },
+  "homepage": "https://github.com/isurfer21/aedifex#readme",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "shelljs": "^0.8.3"
+  }
+}

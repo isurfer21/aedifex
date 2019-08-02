@@ -1,0 +1,53 @@
+{
+	"source": "src/",
+	"build": {
+		"development": {
+			"destination": "bin/",
+			"package": [
+				"index.html",
+				"favicon.ico",
+				"css/",
+				"font/",
+				"img/",
+				"lib/"
+			],
+			"task": [
+				"remakeDest -> ",
+				"copyPkg -> root.build.development.package",
+				"consolidateCode -> root.code"
+			]
+		},
+		"production": {
+			"destination": "bin/",
+			"package": [
+				"index.html",
+				"favicon.ico",
+				"css/main.css",
+				"img/icon.png",
+				"lib/"
+			],
+			"task": [
+				"remakeDest -> ",
+				"makeDir -> css/",
+				"makeDir -> img/",
+				"copyPkg -> root.build.production.package",
+				"consolidateCode -> root.code",
+				"replaceText -> index.html, css/material-icons.css, https://fonts.googleapis.com/icon?family=Material+Icons"
+			]
+		}
+	},
+	"code": {
+		"directory": "js/",
+		"files": [
+			"utility.js",
+			"preferences.js",
+			"toast.js",
+			"status.js",
+			"xhrlog.js",
+			"extract.js",
+			"appbar.js",
+			"main.js"
+		],
+		"consolidate": "main.js"
+	}
+}
