@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/isurfer21/aedifex#readme",
   "dependencies": {
+    "chokidar": "^3.0.2",
     "minimist": "^1.2.0",
     "shelljs": "^0.8.3"
   }
