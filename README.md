@@ -1,5 +1,5 @@
 # Aedifex
-The minimalist JavaScript task runner
+The minimalist lightening-fast javascript task-runner
 
 ### Setup
 Pre-requisite is node.js along with npm
@@ -50,7 +50,7 @@ $ node aedifex.js -v
 #### Publish
 To produce build for distribution.
 ```
-node aedifex.js -c ./config.json -p
+$ node aedifex.js -c ./config.json -p
 Generating build for production
 .
 .
@@ -61,7 +61,7 @@ Finished at 8/2/2019, 3:00:17 PM
 #### Watcher
 To re-build for development whenever any file changes under watching folder.
 ```
-node aedifex.js -c ./config.json -w
+$ node aedifex.js -c ./config.json -w
 Generating build for development
 .
 .
@@ -72,5 +72,5 @@ Finished at 8/2/2019, 3:00:17 PM
 #### Silent
 This switch can go with other switches but when used will not show any logs other than system errors.
 ```
-node aedifex.js -c ./config.json -w -s
+$ node aedifex.js -c ./config.json -w -s
 ```

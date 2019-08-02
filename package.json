@@ -1,7 +1,7 @@
 {
   "name": "aedifex",
-  "version": "1.0.1",
-  "description": "Javascript Task Runner",
+  "version": "1.0.2",
+  "description": "Minimalist lightening-fast javascript task-runner",
   "main": "build.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
