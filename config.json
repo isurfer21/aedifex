@@ -38,16 +38,6 @@
 	},
 	"code": {
 		"directory": "js/",
-		"files": [
-			"utility.js",
-			"preferences.js",
-			"toast.js",
-			"status.js",
-			"xhrlog.js",
-			"extract.js",
-			"appbar.js",
-			"main.js"
-		],
 		"consolidate": "main.js"
 	}
 }
