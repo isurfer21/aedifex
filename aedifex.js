@@ -7,7 +7,7 @@ const chokidar = require('chokidar');
 var actdef, config;
 
 const appname = 'Aedifex';
-const appver = '1.0.5';
+const appver = '1.0.6';
 
 class Duration {
     static asTimeObj(seconds) {
