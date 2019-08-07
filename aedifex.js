@@ -154,7 +154,7 @@ if (argv.h || argv.help) {
                 ignoreInitial: true
             });
             watcher.on('all', (event, path) => {
-                Looger.info(event, path);
+                Logger.info(event, path);
                 Logger.info('Rebuilding ...');
                 let startTime = new Date();
                 for (let i = 0; i < config.build.development.task.length; i++) {
