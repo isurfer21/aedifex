@@ -7,7 +7,7 @@ const chokidar = require('chokidar');
 var actdef, config;
 
 const appname = 'Aedifex';
-const appver = '1.0.6';
+const appver = '1.0.7';
 
 class Duration {
     static asTimeObj(seconds) {
@@ -68,7 +68,7 @@ class Evaluate {
             for (let i = 0; i < params.length; i++) {
                 params[i] = params[i].trim();
                 if (params[i] == ',') {
-                    params.splice(i, 1);
+                    params.splice(i--, 1);
                 } else {
                     if (params[i].indexOf('root') >= 0) {
                         params[i] = eval(params[i].replace('root', 'config'));
